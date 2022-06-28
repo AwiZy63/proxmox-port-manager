@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "db_user",
+    "password": "db_password",
+    "database": "db_name",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "accessKey": "123456789",
+    "privateKey": "abcdefghijklmnopqrstuvwxyz1234567890"
+  },
+  "test": {
+    "username": "db_user",
+    "password": "db_password",
+    "database": "db_name",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "accessKey": "123456789",
+    "privateKey": "abcdefghijklmnopqrstuvwxyz1234567890"
+  },
+  "production": {
+    "username": "db_user",
+    "password": "db_password",
+    "database": "db_name",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "accessKey": "123456789",
+    "privateKey": "abcdefghijklmnopqrstuvwxyz1234567890"
+  }
+}
