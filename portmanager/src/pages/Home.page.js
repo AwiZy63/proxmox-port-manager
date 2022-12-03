@@ -23,7 +23,7 @@ export default function HomePage({ setIsLogged, userData, setUserData }) {
 
   useEffect(() => {
     /* FETCH ALL SERVERS FROM USERID */
-    axios('http://localhost:3030/servers/fetch', {
+    axios('http://89.158.38.131:3030/servers/fetch', {
       method: 'GET',
       headers: {
         "authorization": `Bearer ${userData.accessToken}`
@@ -51,7 +51,7 @@ export default function HomePage({ setIsLogged, userData, setUserData }) {
     });
 
     /* FETCH ALL PORTS OPENNED */
-    axios('http://localhost:3030/ports/fetch', {
+    axios('http://89.158.38.131:3030/ports/fetch', {
       method: 'GET',
       headers: {
         "authorization": `Bearer ${userData.accessToken}`
