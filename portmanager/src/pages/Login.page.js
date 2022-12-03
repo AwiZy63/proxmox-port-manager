@@ -24,7 +24,7 @@ export default function LoginPage({ setIsLogged, setUserData }) {
 
 
         if (username && password) {
-            axios('http://localhost:3030/users/login', {
+            axios('http://89.158.38.131:3030/users/login', {
                 method: 'GET',
                 headers: {
                     'content-type': 'application/x-www-form-urlencoded'
